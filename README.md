@@ -2,16 +2,16 @@
 
 ### Recent Activity ###
 <!--START_SECTION:activity-->
-1. 📝 Committed to [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920/commit/e076b070d68bd07479c7c3ae42cbccc09279dbf3)
-2. 🗑️ Deleted a branch `5-as-a-student-i-want-github-to-automatically-update-readmm-file-to-include-about-me` in [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920)
-3. ➕ Created a new branch [`5-as-a-student-i-want-github-to-automatically-update-readmm-file-to-include-about-me`](https://github.com/NTUST-MIS/TestAt0920/tree/5-as-a-student-i-want-github-to-automatically-update-readmm-file-to-include-about-me) in [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920)
-4. 📝 Committed to [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920/commit/be9d1f85ef57dc74c4b6ca81e0bd1cf37008f209)
-5. 📝 Committed to [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920/commit/e1f88a48f4fcbafe5d257240bebcabf5df178740)
-6. 📝 Committed to [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920/commit/96e975f300c1bdabbe2547eb41dcce816e84b449)
-7. 📝 Committed to [NTUST-MIS/TestAt0920](https://github.com/NTUST-MIS/TestAt0920/commit/474186c457ba153cb86afdc01e20546c2dfdb473)
-8. 📝 Committed to a private repo
-9. 📝 Committed to a private repo
-10. 📝 Committed to a private repo
+1. 🗑️ Deleted a branch `1-as-a-student-i-want-github-automatically-to-add-and-update-readme-file` in [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10)
+2. 📝 Committed to [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10/commit/483c67510af5ec5b2236e70d4d104cc52ee8c71e)
+3. ❌ Closed an issue [#1](https://github.com/NTUST-MIS/Test10/issues/1) in [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10)
+4. 🔀 Merged [PR #2](https://github.com/NTUST-MIS/Test10/pull/2) in [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10)
+5. 📥 Opened [PR #2](https://github.com/NTUST-MIS/Test10/pull/2) in [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10)
+6. 📝 Committed to [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10/commit/483c67510af5ec5b2236e70d4d104cc52ee8c71e)
+7. ➕ Created a new branch [`1-as-a-student-i-want-github-automatically-to-add-and-update-readme-file`](https://github.com/NTUST-MIS/Test10/tree/1-as-a-student-i-want-github-automatically-to-add-and-update-readme-file) in [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10)
+8. 📝 Committed to [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10/commit/73a315f9572bbdee79c5e540242ce23d74f0d3b2)
+9. 🆕 Opened an issue [#1](https://github.com/NTUST-MIS/Test10/issues/1) in [NTUST-MIS/Test10](https://github.com/NTUST-MIS/Test10)
+10. 🆕 Opened an issue [#4](https://github.com/NTUST-MIS/0927Test/issues/4) in [NTUST-MIS/0927Test](https://github.com/NTUST-MIS/0927Test)
 <!--END_SECTION:activity-->
 
 ### About ###
