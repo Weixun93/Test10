@@ -41,7 +41,7 @@ jobs:
           GITHUB_USERNAME: "Weixun93"
           GITHUB_TOKEN: ${{ secrets.ACTSECRET }}
           TARGET_REPOS: '[Weixun93/Test10]'
-          EVENT_LIMIT: '100'
+          EVENT_LIMIT: '200'
       # - name: Set up Node
       #   uses: actions/setup-node@v4
       #   with:
