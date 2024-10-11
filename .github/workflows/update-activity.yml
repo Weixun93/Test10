@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update activity log
-        uses: Weixun93/activity-log@v2
+        uses: Weixun93/activity-log@v1
         with:
           GITHUB_USERNAME: "Weixun93"
           GITHUB_TOKEN: ${{ secrets.ACTSECRET }}
