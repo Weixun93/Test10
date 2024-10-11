@@ -42,13 +42,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACTSECRET }}
           TARGET_REPOS: '[Weixun93/Test10]'
           EVENT_LIMIT: '100'
-       # 新增這個步驟來自動關閉 Issue
-      - name: Close Issue
-        if: success()  # 確保只有在工作成功時才會執行
-        uses: peter-evans/close-issue@v1
-        with:
-          issue-number: 4  # 在這裡填寫要關閉的 Issue 編號
-          comment: "部署完成，活動日誌已更新，此 Issue 已自動關閉。"
+       #### 新增這個步驟來自動關閉 Issue
+      # - name: Close Issue
+      #   if: success()  # 確保只有在工作成功時才會執行
+      #   uses: peter-evans/close-issue@v1
+      #   with:
+      #     issue-number: 4  # 在這裡填寫要關閉的 Issue 編號
+      #     comment: "部署完成，活動日誌已更新，此 Issue 已自動關閉。"
+
+          
       # - name: Set up Node
       #   uses: actions/setup-node@v4
       #   with:
