@@ -1,19 +1,66 @@
-# .github/workflows/update-activity.yml:
+# # .github/workflows/update-activity.yml:
+
+# name: Update GitHub Activity
+
+# on:
+#   schedule:
+#     - cron: "*/1 * * * *" # Runs every 1 minutes
+#   workflow_dispatch: # Allows manual triggering
+
+# jobs:
+#   update-activity:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Update GitHub Activity
+#         uses: Weixun93/activity-log@v1
+#         with:
+#           GITHUB_USERNAME: "Weixun93"
+#           GITHUB_TOKEN: ${{ secrets.ACTSECRET }} # Ensure this matches the secret name in repository settings
+
+# # .github/workflows/update-activity.yml:
 
 name: Update GitHub Activity
 
 on:
-  schedule:
-    - cron: "*/1 * * * *" # Runs every 1 minutes
+#  schedule:
+#    - cron: "*/30 * * * *" # Runs every 30 minutes
   workflow_dispatch: # Allows manual triggering
 
 jobs:
   update-activity:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v4
-      - name: Update GitHub Activity
+      - name: Update activity log
         uses: Weixun93/activity-log@v1
         with:
           GITHUB_USERNAME: "Weixun93"
-          GITHUB_TOKEN: ${{ secrets.ACTSECRET }} # Ensure this matches the secret name in repository settings
+          GITHUB_TOKEN: ${{ secrets.ACTSECRET }}
+          TARGET_REPOS: '[Weixun93/Test10]'
+          EVENT_LIMIT: '100'
+      # - name: Set up Node
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 20
+      # - name: Clone activity-log
+      #   run: |
+      #     git config --global url.https://github.com/.insteadOf git://github.com/
+      #     git clone https://github.com/TheDanniCraft/activity-log.git
+      # - name: Run activity-log directly
+      #   working-directory: ./activity-log
+      #   env:
+      #     INPUT_GITHUB_USERNAME: "raymundlin"
+      #     INPUT_GITHUB_TOKEN: ${{ secrets.ACTIONSECRET2024 }} # Ensure this matches the secret name in repository settings
+      #     INPUT_EVENT_LIMIT: '100'
+      #     INPUT_OUTPUT_STYLE: MARKDOWN
+      #     INPUT_IGNORE_EVENTS: '[]'
+      #     INPUT_README_PATH: ../README.md
+      #     INPUT_COMMIT_MESSAGE: Update README.md without using external action
+      #   run: |
+      #     npm i -g @vercel/ncc
+      #     npm i @actions/github
+      #     ncc run src/index.js --license licenses.txt
